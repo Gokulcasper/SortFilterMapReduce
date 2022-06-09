@@ -30,7 +30,5 @@ const number = [22, 54, 4, 56, 76];
 
 // Reduce----------->//It reduce the given value
 
-let result = number.reduce((acc, curVal) => {
-  return acc * curVal;
-});
+let result = number.reduce((acc, curVal) => acc * curVal);
 console.log(result);
